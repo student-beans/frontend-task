@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    volumes:
+     - ./app:/app
+    build: .
+    ports:
+     - "3000:3000"
+  web_test:
+    command: "test"
+    volumes:
+     - ./app:/app
+    build: .
