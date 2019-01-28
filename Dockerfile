@@ -5,6 +5,7 @@ ADD . /app
 
 ENV NODE_PATH=/app/node_modules
 ENV PATH=$PATH:/app/node_modules/.bin
+RUN npm install -g yarn
 RUN yarn
 
 EXPOSE 3000
