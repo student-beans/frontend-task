@@ -1,13 +1,16 @@
 # Student Beans Frontend Task
 
+![Task Image](./task-image.png)
+
 ## Task
 
-Complete this react app that recreates the following image. There are 2 simple focuses on this task:
+Complete this React app that recreates the above mockup. At a minimum your solution should:
 
 * Use the existing component structure to organise your code
 * Use Standard.js to lint your code
+* Look as visually as close to the mockup as possible
 
-![Task Image](./task-image.png)
+Beyond this feel free to improve or extend the app as you see fit
 
 ## Running the app
 
