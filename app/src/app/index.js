@@ -1,6 +1,6 @@
 import React from 'react'
 import CaptionImage from './children/CaptionImage'
-import ProfileImage from './children/ProfileImage'
+import UserInfoHeader from './children/UserInfoHeader'
 import LikeButton from './children/like_button'
 import styles from './styles'
 
@@ -13,9 +13,7 @@ const App = (props) => {
         <CaptionImage data={data} ></CaptionImage>
       </div>
       <div style={styles.text}>
-        <ProfileImage data={data}></ProfileImage>
-        <p>{data.owner.username}</p>
-        <p>Comments block</p>
+        <UserInfoHeader data ={data}></UserInfoHeader>
         <LikeButton />
       </div>
     </main>

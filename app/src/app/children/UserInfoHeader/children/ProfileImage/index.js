@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles'
-// import {getCaptionFromEdges} from './helpers'
 
 const ProfileImage = (props) => {
   const {data} = props
