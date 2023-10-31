@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles'
 import {getCaptionFromEdges} from './helpers'
 
-const Image = (props) => {
+const CaptionImage = (props) => {
   const {data} = props
   return (
     <img
@@ -13,4 +13,4 @@ const Image = (props) => {
   )
 }
 
-export default Image
+export default CaptionImage
