@@ -4,7 +4,7 @@ export default {
     border: '1px solid #f0f0f0',
     marginTop: '2vh',
     width: '90%',
-    marginLeft:'2vw',
+    marginLeft: '2vw'
 
   },
   main: {
@@ -23,17 +23,17 @@ export default {
   },
 
   image: {
-    paddingTop:"4vh",
-    paddingBottom:'4vh',
+    paddingTop: '4vh',
+    paddingBottom: '4vh',
     maxWidth: '60%',
     order: '1',
     flex: '1 0 60%',
     alignSelf: 'center',
-    marginTop: '0 20px',
+    marginTop: '0 20px'
   },
 
   text: {
-    
+
     backgroundColor: 'white',
     maxWidth: '40%',
     order: '2',

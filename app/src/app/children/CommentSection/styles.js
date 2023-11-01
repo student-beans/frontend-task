@@ -1,8 +1,7 @@
 const containerStyle = {
-    display: 'flex',            
-    alignItems: 'center',
-    
+  display: 'flex',
+  alignItems: 'center'
 
 }
 
-export {containerStyle}
+export { containerStyle }

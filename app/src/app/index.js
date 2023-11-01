@@ -11,13 +11,13 @@ const App = (props) => {
   return (
     <main style={styles.main}>
       <div style={styles.image}>
-        <CaptionImage data={data} ></CaptionImage>
+        <CaptionImage data={data} />
       </div>
       <div style={styles.text}>
-        <UserInfoHeader data={data}></UserInfoHeader>
-        <div style={styles.separator}></div>
-        <CommentSection data={data}></CommentSection>
-        <PostFooter data={data}></PostFooter>
+        <UserInfoHeader data={data} />
+        <div style={styles.separator} />
+        <CommentSection data={data} />
+        <PostFooter data={data} />
       </div>
 
     </main>

@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import LikedIcon from './children/liked_icon';
+import React, { useState } from 'react'
+import LikedIcon from './children/liked_icon'
 import UnlikedIcon from './children/unliked_icon'
-import styles from './styles';
+import styles from './styles'
 
 const LikeButton = (props) => {
-  const [liked, setLiked] = useState(false);
+  const [liked, setLiked] = useState(false)
 
   const toggleLike = () => {
-    setLiked((prevLiked) => !prevLiked);
-  };
+    setLiked((prevLiked) => !prevLiked)
+  }
 
   return (
     <button style={styles.button} onClick={toggleLike}>
-      {liked ? <LikedIcon /> : <UnlikedIcon></UnlikedIcon>} 
+      {liked ? <LikedIcon /> : <UnlikedIcon />}
     </button>
-  );
-};
+  )
+}
 
-export default LikeButton;
+export default LikeButton
