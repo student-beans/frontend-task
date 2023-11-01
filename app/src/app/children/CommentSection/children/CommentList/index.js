@@ -1,7 +1,7 @@
 import React from 'react'
 import Comment from './children/Comment'
 import { containerStyle } from './styles'
-import './styles.css';
+import './styles.css'
 
 const CommentList = (props) => {
   const { data } = props

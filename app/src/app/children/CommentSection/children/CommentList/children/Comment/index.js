@@ -1,7 +1,7 @@
 import React from 'react'
 import { containerStyle, usernameStyle, textStyle, heartStyle } from './styles'
 import { processText } from './helpers'
-import './styles.css'; 
+import './styles.css'
 import LikeButton from '../../../../../like_button_mini'
 const Comment = (props) => {
   const { comment } = props
