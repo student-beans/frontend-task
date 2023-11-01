@@ -1,7 +1,8 @@
 const containerStyle = {
     display: 'flex',            
     alignItems: 'center',
-    
+    paddingLeft:'2vw',
+    paddingTop:'2vh'
 }
 
 const infoTextStyle = {
