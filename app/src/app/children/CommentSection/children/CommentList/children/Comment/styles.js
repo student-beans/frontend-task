@@ -1,20 +1,18 @@
-const containerStyle = {
+export default {
+  containerStyle: {
 
-  display: 'flex',
-  paddingLeft: '2vw',
-  paddingRight: '2vw'
+    display: 'flex',
+    paddingLeft: '2vw',
+    paddingRight: '2vw'
+  },
+  heartStyle: {
+
+    alignSelf: 'center'
+
+  },
+  textStyle: {
+
+    marginLeft: '0.5em',
+    flex: 1
+  }
 }
-
-const heartStyle = {
-
-  alignSelf: 'center'
-
-}
-
-const textStyle = {
-
-  marginLeft: '0.5em',
-  flex: 1
-}
-
-export { containerStyle, textStyle, heartStyle }
