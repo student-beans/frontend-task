@@ -17,9 +17,4 @@ const textStyle = {
   flex: 1
 }
 
-const usernameStyle = {
-
-  fontWeight: 'bold'
-}
-
-export { containerStyle, usernameStyle, textStyle, heartStyle }
+export { containerStyle, textStyle, heartStyle }
