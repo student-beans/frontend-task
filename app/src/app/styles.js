@@ -16,7 +16,6 @@ export default {
     margin: '16px auto',
     width: 'calc(100% - 40px)',
     display: 'flex',
-    flexDirection: 'row',
     justifyContent: 'flex-start',
     alignContent: 'stretch',
     alignItems: 'flex-start'
@@ -35,7 +34,7 @@ export default {
   text: {
 
     backgroundColor: 'white',
-    maxWidth: '40%',
+    // maxWidth: '40%',
     order: '2',
     flex: '1 0 30%',
     alignSelf: 'flex-start'

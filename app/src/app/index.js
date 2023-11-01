@@ -3,23 +3,25 @@ import CaptionImage from './children/CaptionImage'
 import UserInfoHeader from './children/UserInfoHeader'
 import CommentSection from './children/CommentSection'
 import PostFooter from './children/PostFooter'
+import './styles.css';
 import styles from './styles'
+
 
 const App = (props) => {
   const { data } = props
-  console.log(data)
   return (
-    <main style={styles.main}>
-      <div style={styles.image}>
-        <CaptionImage data={data} />
+    <main>
+      <div  className = 'main' style={styles.main}>
+        <div className='image' style={styles.image}>
+          <CaptionImage data={data} />
+        </div>
+        <div className='text' style={styles.text}>
+          <UserInfoHeader data={data} />
+          <div style={styles.separator} />
+          <CommentSection data={data} />
+          <PostFooter data={data} />
+        </div>
       </div>
-      <div style={styles.text}>
-        <UserInfoHeader data={data} />
-        <div style={styles.separator} />
-        <CommentSection data={data} />
-        <PostFooter data={data} />
-      </div>
-
     </main>
   )
 }
