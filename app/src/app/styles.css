@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+    .main{
+  
+      flex-direction: column; 
+    }
+  
+    .image {
+      max-width: 600px; 
+      order: 2; 
+    }
+  
+    .text {
+      max-width: 100%;
+      order: 2; 
+    }
+  }

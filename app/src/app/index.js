@@ -1,19 +1,25 @@
 import React from 'react'
-import Image from './children/image'
-import LikeButton from './children/like_button'
+import CaptionImage from './children/CaptionImage'
+import UserInfoHeader from './children/UserInfoHeader'
+import CommentSection from './children/CommentSection'
+import PostFooter from './children/PostFooter'
+import './styles.css'
 import styles from './styles'
 
 const App = (props) => {
   const { data } = props
   return (
-    <main style={styles.main}>
-      <div style={styles.image}>
-        <Image data={data} />
-      </div>
-      <div style={styles.text}>
-        <p>User block</p>
-        <p>Comments block</p>
-        <LikeButton />
+    <main>
+      <div className='main' style={styles.main}>
+        <div className='image' style={styles.image}>
+          <CaptionImage data={data} />
+        </div>
+        <div className='text' style={styles.text}>
+          <UserInfoHeader data={data} />
+          <div style={styles.separator} />
+          <CommentSection data={data} />
+          <PostFooter data={data} />
+        </div>
       </div>
     </main>
   )
